@@ -3,20 +3,28 @@
 $main-font-color: rgb(71, 71, 71);
 $second-font-color: rgb(124, 133, 42);
 $last-font-color: rgb(26, 134, 62);
+$text-shadow: rgb(105, 107, 2) 5px 5px 10px;
 %ul{
     list-style-type: lower-roman;
     color: $main-font-color;
 }
 
+
 // ----------------code CSS ----------------
 
+body{
+    background: linear-gradient(to top, #00ff00 0%, #d9ff09 100%);
+}
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: $second-font-color;
+    text-shadow: $text-shadow;
 }
 
+    // h2 = les 2 titres (ingredients et Préparation
 h2{
     color: $last-font-color;
+    text-shadow: $text-shadow;
 }
 .liste-ingredients{
     @extend %ul;
