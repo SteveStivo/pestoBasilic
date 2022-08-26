@@ -1,1 +1,13 @@
-/*# sourceMappingURL=stylesheet.css.map */
+.img-preparation, .liste-ingredients {
+  list-style-type: lower-roman;
+  color: rgb(71, 71, 71);
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(124, 133, 42);
+}
+
+h2 {
+  color: rgb(26, 134, 62);
+}/*# sourceMappingURL=stylesheet.css.map */

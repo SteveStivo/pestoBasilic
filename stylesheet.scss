@@ -1,0 +1,26 @@
+// -------------- variables ---------------
+
+$main-font-color: rgb(71, 71, 71);
+$second-font-color: rgb(124, 133, 42);
+$last-font-color: rgb(26, 134, 62);
+%ul{
+    list-style-type: lower-roman;
+    color: $main-font-color;
+}
+
+// ----------------code CSS ----------------
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: $second-font-color;
+}
+
+h2{
+    color: $last-font-color;
+}
+.liste-ingredients{
+    @extend %ul;
+}
+.img-preparation{
+    @extend %ul;
+}
